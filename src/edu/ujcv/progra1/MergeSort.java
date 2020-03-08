@@ -12,9 +12,25 @@ public class MergeSort  implements SortTester{
     }
 
     public static int[] mergeSort(int[] a) {
-        int[] inf = new int [a.length -( a.length/2)];
-        int[] sup = new int [a.length - inf.length];
 
+        int[] inf = new int [a.length/2];
+        int[] sup = new int [a.length - inf.length];
+        int k =0;
+
+        if(a.length <= 1){
+        return a;
+        }
+
+        for (int i = 0; i < inf.length; i++) {
+
+            inf [i] = a [k++];
+
+        }
+
+        for (int i = 0; i < sup.length; i++) {
+
+            sup[i]= a[k++];
+        }
 
 
         return merge(inf,sup);
