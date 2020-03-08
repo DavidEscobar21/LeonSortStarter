@@ -33,11 +33,41 @@ public class MergeSort  implements SortTester{
         }
 
 
-        return merge(inf,sup);
+        return merge(mergeSort(inf),mergeSort(sup));
     }
 
     public static int[] merge(int[] inf, int[] sup ){
-        return new int[5];
+
+        int [] retval = new int [inf.length + sup.length];
+
+        int i = 0, j = 0, k = 0;
+
+        for (  ; j < inf.length && k < sup.length; i++) {
+
+            if (inf[j] < sup[k]) {
+
+                retval[i] = inf[j++];
+
+            } else {
+
+                retval[i] = sup[k++];
+            }
+
+        }
+
+        if (j < inf.length){
+            for ( ; i < retval.length; i++) {
+                retval[i] = inf[j++];
+            }
+        }else if (k < sup.length){
+            for (; i < retval.length ; i++) {
+                retval[i] = sup[k++];
+
+            }
+
+        }
+
+        return retval;
     }
 
 
