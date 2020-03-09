@@ -13,9 +13,22 @@ public class CombSort implements SortTester {
 
         public int[] combSort (int [] array){
 
-        final double X = 1.3;
+        int n =  array.length;
 
         return null;
         }
+
+
+        
+        int ObtenerSiguiente(int Sig) {
+
+            Sig = (Sig * 10) / 13;
+
+            if (Sig < 1){
+                return 1;
+        }
+
+        return Sig;
     }
+}
 
