@@ -11,16 +11,30 @@ public class CombSort implements SortTester {
             return end - start;
         }
 
-        public int[] combSort (int [] array){
+        public void combSort (int [] array) {
 
-        int n =  array.length;
-
-        return null;
-        }
+            int n = array.length;
+            int Sig = n;
 
 
-        
-        int ObtenerSiguiente(int Sig) {
+            while (Sig != 1) {
+
+                Sig = ObtenerSiguiente(Sig);
+
+                for (int i = 0; i < n - Sig; i++) {
+                    if (array[i] > array[i + Sig]) {
+                        
+                        int temp = array[i];
+                        array[i] = array[i + Sig];
+                        array[i + Sig] = temp;
+                    }
+
+                }
+
+        }}
+
+
+       public int ObtenerSiguiente(int Sig) {
 
             Sig = (Sig * 10) / 13;
 
