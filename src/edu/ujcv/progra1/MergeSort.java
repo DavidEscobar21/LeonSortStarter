@@ -1,6 +1,6 @@
 package edu.ujcv.progra1;
 
-public class MergeSort  implements SortTester{
+public class MergeSort implements SortTester{
     @Override
     public long sort(int[] array) {
         long start = System.currentTimeMillis();
@@ -11,7 +11,7 @@ public class MergeSort  implements SortTester{
         return end - start;
     }
 
-    public static int[] mergeSort(int[] a) {
+    public int[] mergeSort(int[] a) {
 
         int[] inf = new int [a.length/2];
         int[] sup = new int [a.length - inf.length];
