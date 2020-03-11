@@ -1,6 +1,7 @@
 package edu.ujcv.progra1;
 
 public class CombSort implements SortTester {
+
     @Override
     public long sort(int[] array) {
             long start = System.currentTimeMillis();
@@ -23,7 +24,7 @@ public class CombSort implements SortTester {
 
                 for (int i = 0; i < n - Sig; i++) {
                     if (array[i] > array[i + Sig]) {
-                        
+
                         int temp = array[i];
                         array[i] = array[i + Sig];
                         array[i + Sig] = temp;

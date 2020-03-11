@@ -15,8 +15,11 @@ public class Main {
 //          MergeSort s = new MergeSort();
 //          elementos = s.mergeSort(elementos);
 
-            CombSort s = new CombSort();
-            s.combSort(elementos);
+//            CombSort s = new CombSort();
+//            s.combSort(elementos);
+
+        HeapSort s = new HeapSort();
+        s.heapSort(elementos);
 
         for (int i = 0; i < elementos.length; i++) {
             System.out.println(elementos[i]);

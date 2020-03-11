@@ -13,17 +13,28 @@ public class HeapSort implements SortTester {
         return end - start;
     }
 
-    public static int[] heapSort(int[] array) {
 
-        // cambiar priority queue por su propia implementacion!!
-        PriorityQueue <Integer> queue = new PriorityQueue<>();
-        for (Integer i: array) {
-            queue.add(i);
-        }
-        for (int i = 0; i < array.length; i++) {
-            array[i] = queue.remove();
-        }
-        return array;
+    public int [] heapSort(int [] array){
+
+        return null;
     }
+    
+
+
+
+
+
+//    public static int[] heapSort(int[] array) {
+//
+//        // cambiar priority queue por su propia implementacion!!
+//        PriorityQueue <Integer> queue = new PriorityQueue<>();
+//        for (Integer i: array) {
+//            queue.add(i);
+//        }
+//        for (int i = 0; i < array.length; i++) {
+//            array[i] = queue.remove();
+//        }
+//        return array;
+//    }
 
 }
