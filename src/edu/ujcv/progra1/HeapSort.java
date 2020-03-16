@@ -15,6 +15,23 @@ public class HeapSort implements SortTester {
 
 
     public void heapSort(int [] array){
+
+        int n = array.length;
+        // Ordenar
+        for (int i = n/2-1; i >= 0; i--) {
+            Flotar(array, n, i);
+            //Todo
+        }
+
+        //Borrar
+        for (int i = n-1; i >=0; i--) {
+
+            int temp = array[0];
+            array[0] = array[i];
+            array[i] = temp;
+
+            Flotar(array,i,0);
+        }
     }
 
 
