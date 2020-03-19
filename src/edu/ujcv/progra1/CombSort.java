@@ -16,11 +16,12 @@ public class CombSort implements SortTester {
 
             int n = array.length;
             int Sig = n;
+            boolean x= true;
 
-
-            while (Sig != 1) {
+            while (Sig != 1 || x == true) {
 
                 Sig = ObtenerSiguiente(Sig);
+                x = false;
 
                 for (int i = 0; i < n - Sig; i++) {
                     if (array[i] > array[i + Sig]) {
@@ -28,8 +29,8 @@ public class CombSort implements SortTester {
                         int temp = array[i];
                         array[i] = array[i + Sig];
                         array[i + Sig] = temp;
+                        x = true;
                     }
-
                 }
 
         }}

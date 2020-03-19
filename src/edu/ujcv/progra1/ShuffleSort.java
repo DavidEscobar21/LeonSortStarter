@@ -5,15 +5,15 @@ import java.util.Random;
 
 public class ShuffleSort implements SortTester {
 
-    @Override
-    public long sort(int[] array) {
-        long start = System.currentTimeMillis();
-        shuffleSort(array);
+        @Override
+        public long sort(int[] array) {
+            long start = System.currentTimeMillis();
+            shuffleSort(array);
 
-        long end = System.currentTimeMillis();
+            long end = System.currentTimeMillis();
 
-        return end - start;
-    }
+            return end - start;
+        }
 
     public int[] shuffleSort(int[] array) { // n * n ^n
         int [] temp = new int[array.length];
