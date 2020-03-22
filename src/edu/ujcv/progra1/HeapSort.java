@@ -21,7 +21,7 @@ public class HeapSort implements SortTester {
         // Ordenar
         for (int i = n/2-1; i >= 0; i--) {
             Flotar(array, n, i);
-            //Todo
+
         }
 
         //Borrar

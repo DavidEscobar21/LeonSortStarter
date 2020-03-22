@@ -23,16 +23,12 @@ public class MergeSort implements SortTester{
         }
 
         for (int i = 0; i < inf.length; i++) {
-
             inf [i] = a [k++];
-
         }
 
         for (int i = 0; i < sup.length; i++) {
-
             sup[i]= a[k++];
         }
-
 
         return merge(mergeSort(inf),mergeSort(sup));
     }
@@ -46,16 +42,12 @@ public class MergeSort implements SortTester{
         for (  ; j < inf.length && k < sup.length; i++) {
 
             if (inf[j] < sup[k]) {
-
                 retval[i] = inf[j++];
-
-            } else {
-
+            }
+            else {
                 retval[i] = sup[k++];
             }
-
         }
-
         if (j < inf.length){
             for ( ; i < retval.length; i++) {
                 retval[i] = inf[j++];
@@ -63,11 +55,8 @@ public class MergeSort implements SortTester{
         }else if (k < sup.length){
             for (; i < retval.length ; i++) {
                 retval[i] = sup[k++];
-
             }
-
         }
-
         return retval;
     }
 

@@ -16,7 +16,7 @@ public class CombSort implements SortTester {
 
             int n = array.length;
             int Sig = n;
-            boolean x= true;
+            boolean x = true;
 
             while (Sig != 1 || x == true) {
 
