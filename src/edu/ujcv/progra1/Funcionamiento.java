@@ -4,22 +4,22 @@ import java.util.Random;
 
 public class Funcionamiento {
 
-    public static void main(String[] args){
+    public void funcionamiento(int x, int rango){
 
-        int [] arr1 = new int[10];
-        int [] arr2 = new int[10];
-        int [] arr3 = new int[10];
-        int [] arr4 = new int[10];
-        int [] arr5 = new int[10];
+        int [] arr1 = new int[x];
+        int [] arr2 = new int[x];
+        int [] arr3 = new int[x];
+        int [] arr4 = new int[x];
+        int [] arr5 = new int[x];
 
         Random random = new Random();
 
         for (int i = 0; i < arr1.length; i++) {
-            arr1[i] = Math.abs(random.nextInt(1000));
-            arr2[i] = Math.abs(random.nextInt(1000));
-            arr3[i] = Math.abs(random.nextInt(1000));
-            arr4[i] = Math.abs(random.nextInt(1000));
-            arr5[i] = Math.abs(random.nextInt(1000));
+            arr1[i] = Math.abs(random.nextInt(rango));
+            arr2[i] = Math.abs(random.nextInt(rango));
+            arr3[i] = Math.abs(random.nextInt(rango));
+            arr4[i] = Math.abs(random.nextInt(rango));
+            arr5[i] = Math.abs(random.nextInt(rango));
         }
 
         BubleSort b = new BubleSort();

@@ -4,10 +4,8 @@ import java.util.Random;
 
 public class MultiPromedio {
 
-    public static void main(String[] args) {
+    public void multiPromedio(int x, int rango) {
 
-        int x = 100000;
-        int rango = 1000;
 
         int[] arr1 = new int[x];
         int[] arr2 = new int[x];
@@ -39,7 +37,7 @@ public class MultiPromedio {
 
             System.out.println("\nbubleSort");
             System.out.println("arr1:" + time1 + " arr2:" + time2 + " arr3:" + time3 + " arr4:" + time4 + " arr5:" + time5);
-            System.out.println("\nPromedio");
+            System.out.println("Promedio");
             System.out.println(promedio / 5 + " milisegundos");
 
 
@@ -63,7 +61,7 @@ public class MultiPromedio {
 
                 System.out.println("\nmergeSort");
                 System.out.println("arr1:" + time1 + " arr2:" + time2 + " arr3:" + time3 + " arr4:" + time4 + " arr5:" + time5);
-                System.out.println("\nPromedio");
+                System.out.println("Promedio");
                 System.out.println(promedio / 5 + " milisegundos");
 
 
@@ -87,7 +85,7 @@ public class MultiPromedio {
 
                     System.out.println("\ncombSort");
                     System.out.println("arr1:" + time1 + " arr2:" + time2 + " arr3:" + time3 + " arr4:" + time4 + " arr5:" + time5);
-                    System.out.println("\nPromedio");
+                    System.out.println("Promedio");
                     System.out.println(promedio / 5 + " milisegundos");
 
 
@@ -111,7 +109,7 @@ public class MultiPromedio {
 
                         System.out.println("\nheapSort");
                         System.out.println("arr1:" + time1 + " arr2:" + time2 + " arr3:" + time3 + " arr4:" + time4 + " arr5:" + time5);
-                        System.out.println("\nPromedio");
+                        System.out.println("Promedio");
                         System.out.println(promedio / 5 + " milisegundos");
 
                     }
