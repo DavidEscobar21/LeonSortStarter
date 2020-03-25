@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01b20075-494a-4e39-8c26-2e09a8d02290" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/ujcv/progra1/TiempoIndividual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/ujcv/progra1/Funcionamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ujcv/progra1/Funcionamiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/ujcv/progra1/CombSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ujcv/progra1/CombSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/ujcv/progra1/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ujcv/progra1/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/ujcv/progra1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ujcv/progra1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/ujcv/progra1/MultiPromedio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ujcv/progra1/MultiPromedio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/ujcv/progra1/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ujcv/progra1/MergeSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,20 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/TiempoIndividual.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -44,17 +32,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/Funcionamiento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+            <state relative-caret-position="714">
+              <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/MultiPromedio.java">
+        <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/CombSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -76,14 +73,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/BubleSort.java" />
         <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/ShuffleSort.java" />
-        <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/CombSort.java" />
-        <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/Promedio.java" />
-        <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/TiempoIndividual.java" />
-        <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/Funcionamiento.java" />
         <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/MultiPromedio.java" />
         <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/Main.java" />
+        <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/Promedio.java" />
+        <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/CombSort.java" />
+        <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/Funcionamiento.java" />
+        <option value="$PROJECT_DIR$/src/edu/ujcv/progra1/HeapSort.java" />
       </list>
     </option>
   </component>
@@ -98,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -121,7 +119,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,9 +196,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Promedio" />
         <item itemvalue="Application.Funcionamiento" />
         <item itemvalue="Application.MultiPromedio" />
-        <item itemvalue="Application.Promedio" />
       </list>
     </recent_temporary>
   </component>
@@ -307,14 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584907950647</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Proyecto terminado">
+      <created>1584926454554</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584926454554</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3704698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3865772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,7 +328,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.53824365" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43767706" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -356,44 +360,14 @@
     <MESSAGE value="arregle algunos pequeños detalles de los sorts y estoy haciendo las clases de pruebas para estos" />
     <MESSAGE value="agregue la clase promedio que mide la duracion de tiempo de ejecucion" />
     <MESSAGE value="agregue la clase multiPromedio" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregue la clase multiPromedio" />
+    <MESSAGE value="Proyecto terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto terminado" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/SortTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="345" column="37" selection-start-line="345" selection-start-column="37" selection-end-line="345" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/ShuffleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/CombSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -411,31 +385,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/BubleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/TiempoIndividual.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/Promedio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/Funcionamiento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -446,20 +399,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/TiempoIndividual.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/SortTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="487" selection-start-line="487" selection-end-line="487" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/ShuffleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/BubleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/Promedio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/CombSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/Funcionamiento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/ujcv/progra1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

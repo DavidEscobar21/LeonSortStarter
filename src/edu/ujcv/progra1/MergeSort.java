@@ -12,7 +12,7 @@ public class MergeSort implements SortTester{
         return end - start;
     }
 
-    public int[] mergeSort(int[] a) {
+     public int[] mergeSort(int[] a) {
 
         int[] inf = new int [a.length/2];
         int[] sup = new int [a.length - inf.length];

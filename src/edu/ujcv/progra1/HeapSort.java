@@ -25,14 +25,8 @@ public class HeapSort implements SortTester {
         }
 
         //Borrar
-        for (int i = n-1; i >=0; i--) {
+        Hundir(array,n);
 
-            int temp = array[0];
-            array[0] = array[i];
-            array[i] = temp;
-
-            Flotar(array,i,0);
-        }
     }
 
 
@@ -64,7 +58,18 @@ public class HeapSort implements SortTester {
 
     }
 
+    public void Hundir(int []array, int n){
 
+        for (int i = n-1; i >=0; i--) {
+
+            int temp = array[0];
+            array[0] = array[i];
+            array[i] = temp;
+
+            Flotar(array,i,0);
+        }
+
+    }
 
 //    public static int[] heapSort(int[] array) {
 //
